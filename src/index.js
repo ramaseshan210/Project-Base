@@ -1,10 +1,13 @@
+/* eslint arrow-body-style: ["off", "as-needed"] */
+/* eslint-disable */
+/* eslint no-trailing-spaces: "off" */
+/* react/jsx-filename-extension": [ "off": "as-needed" }] */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './stylesheets/main.scss'
-import 'remixicon/fonts/remixicon.css'
-import App from './components/App';
+import './stylesheets/main.scss';
+import 'remixicon/fonts/remixicon.css';
+import App from './components/App.jsx';
 import reportWebVitals from './reportWebVitals';
-
 
 ReactDOM.render(
   <React.StrictMode>
